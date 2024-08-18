@@ -1,5 +1,5 @@
 Project Name: ProMicroMacro
-Project Version: #b702dfed
+Project Version: #02e9f1ae
 Project Url: https://www.flux.ai/yeettheanson/promicromacro
 
 Project Description:
