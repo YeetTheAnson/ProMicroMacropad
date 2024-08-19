@@ -83,3 +83,11 @@ In the provided example code, each button on the macropad is assigned a specific
 - **Button 16**: Plays a Rickroll ;p
 
 
+## Datasheets and References
+
+The information i referred to while building the PCB is here
+- **[Atmega32U4 Microcontroller](https://www.microchip.com/en-us/product/atmega32u4)**
+- **[MPR121QR2 Touch Sensor](https://www.sparkfun.com/datasheets/Components/MPR121.pdf)** 
+- **[OLED 128x32 Display](https://www.vishay.com/docs/37894/oled128o032dlpp3n00000.pdf)**
+
+
