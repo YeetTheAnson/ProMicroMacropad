@@ -98,16 +98,28 @@ void loop() {
     Keyboard.print("Frequently used phonenumber");
     delay(100);
   }
-  else if (digitalRead(18) == LOW) {
-    Serial.println("Pin pressed: 18");
+  else if (digitalRead(18) == LOW) { //open first pinned taskbar app
+    Keyboard.press(KEY_LEFT_GUI);
+    Keyboard.press(KEY_LEFT_SHIFT);
+    Keyboard.press('1');
+    delay(10);
+    Keyboard.releaseAll();
     delay(100);
   }
-  else if (digitalRead(19) == LOW) {
-    Serial.println("Pin pressed: 19");
+  else if (digitalRead(19) == LOW) { //open second pinned taskbar app
+    Keyboard.press(KEY_LEFT_GUI);
+    Keyboard.press(KEY_LEFT_SHIFT);
+    Keyboard.press('2');
+    delay(10);
+    Keyboard.releaseAll();
     delay(100);
   }
-  else if (digitalRead(20) == LOW) {
-    Serial.println("Pin pressed: 20");
+  else if (digitalRead(20) == LOW) { //open third pinned taskbar app
+    Keyboard.press(KEY_LEFT_GUI);
+    Keyboard.press(KEY_LEFT_SHIFT);
+    Keyboard.press('3');
+    delay(10);
+    Keyboard.releaseAll();
     delay(100);
   }
   else if (digitalRead(10) == LOW) { //Figure out what this does ;p
